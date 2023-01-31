@@ -1,4 +1,5 @@
-备注: 简体中文在下面.
+* 备注: 简体中文在下面.
+
 how to use:
 
 1. finish the "URL" and "How many objects" input box.
@@ -14,11 +15,11 @@ if you want to stop a loop:
 * press "cancel loop" button
 
 try to attack:
-(247kB) http://www.gov.cn/govweb/c1293/202301/5738890/images/47ecfbe4790e498f80b14c7ff82c3deb.jpg
-(63.6kB) http://static.kremlin.ru/media/events/photos/medium/PMbSfAoy4agkT6HhYlCnamU0SxAvQNy9.jpg
-(6.5Kb) http://static.kremlin.ru/media/events/highlight-images/index/r1AEftXxWM57r6gWnAo61WTVYRGuemE8.jpg
-(1.9MB) http://www.kcna.kp/siteFiles/thumb/focus.jpg
-(957kB; every IP have 256MB Network Transport LIMITED(maybe)) http://www.mfa.gov.kp/app/uploads/2023/01/21-1.jpg
+* (247kB) http://www.gov.cn/govweb/c1293/202301/5738890/images/47ecfbe4790e498f80b14c7ff82c3deb.jpg
+* (63.6kB) http://static.kremlin.ru/media/events/photos/medium/PMbSfAoy4agkT6HhYlCnamU0SxAvQNy9.jpg
+* (6.5Kb) http://static.kremlin.ru/media/events/highlight-images/index/r1AEftXxWM57r6gWnAo61WTVYRGuemE8.jpg
+* (1.9MB) http://www.kcna.kp/siteFiles/thumb/focus.jpg
+* (957kB; every IP have 256MB Network Transport LIMITED(maybe)) http://www.mfa.gov.kp/app/uploads/2023/01/21-1.jpg
 
 thank you :D
 
@@ -36,11 +37,11 @@ thank you :D
 * 按cancel loop按钮
 
 请尝试(干爆)下面几个:
-(247kB) http://www.gov.cn/govweb/c1293/202301/5738890/images/47ecfbe4790e498f80b14c7ff82c3deb.jpg
-(63.6kB) http://static.kremlin.ru/media/events/photos/medium/PMbSfAoy4agkT6HhYlCnamU0SxAvQNy9.jpg
-(6.5kB) http://static.kremlin.ru/media/events/highlight-images/index/r1AEftXxWM57r6gWnAo61WTVYRGuemE8.jpg
-(1.9MB) http://www.kcna.kp/siteFiles/thumb/focus.jpg
-(957kB; 貌似每个IP有256MB的流量限制) http://www.mfa.gov.kp/app/uploads/2023/01/21-1.jpg
+* (247kB) http://www.gov.cn/govweb/c1293/202301/5738890/images/47ecfbe4790e498f80b14c7ff82c3deb.jpg
+* (63.6kB) http://static.kremlin.ru/media/events/photos/medium/PMbSfAoy4agkT6HhYlCnamU0SxAvQNy9.jpg
+* (6.5kB) http://static.kremlin.ru/media/events/highlight-images/index/r1AEftXxWM57r6gWnAo61WTVYRGuemE8.jpg
+* (1.9MB) http://www.kcna.kp/siteFiles/thumb/focus.jpg
+* (957kB; 貌似每个IP有256MB的流量限制) http://www.mfa.gov.kp/app/uploads/2023/01/21-1.jpg
 
 * 备注: www.gov.cn的那个实测攻击流量最高可达210Mbps
 * 备注: 请灵活运用F12中的网络工具, 以确定循环需要的timeout的值!
