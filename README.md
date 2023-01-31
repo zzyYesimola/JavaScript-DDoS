@@ -16,7 +16,7 @@ if you want to stop a loop:
 
 try to attack:
 * (247kB) http://www.gov.cn/govweb/c1293/202301/5738890/images/47ecfbe4790e498f80b14c7ff82c3deb.jpg
-* (63.6kB) http://static.kremlin.ru/media/events/photos/medium/PMbSfAoy4agkT6HhYlCnamU0SxAvQNy9.jpg
+* (206kB) http://static.kremlin.ru/media/events/photos/big/vDsdm8C8KXcADy9NHeGVBmdQLdoh4zdL.jpg
 * (6.5Kb) http://static.kremlin.ru/media/events/highlight-images/index/r1AEftXxWM57r6gWnAo61WTVYRGuemE8.jpg
 * (1.9MB) http://www.kcna.kp/siteFiles/thumb/focus.jpg
 * (957kB; every IP have 256MB Network Transport LIMITED(maybe)) http://www.mfa.gov.kp/app/uploads/2023/01/21-1.jpg
@@ -38,7 +38,7 @@ thank you :D
 
 请尝试(干爆)下面几个:
 * (247kB) http://www.gov.cn/govweb/c1293/202301/5738890/images/47ecfbe4790e498f80b14c7ff82c3deb.jpg
-* (63.6kB) http://static.kremlin.ru/media/events/photos/medium/PMbSfAoy4agkT6HhYlCnamU0SxAvQNy9.jpg
+* (206kB) http://static.kremlin.ru/media/events/photos/big/vDsdm8C8KXcADy9NHeGVBmdQLdoh4zdL.jpg
 * (6.5kB) http://static.kremlin.ru/media/events/highlight-images/index/r1AEftXxWM57r6gWnAo61WTVYRGuemE8.jpg
 * (1.9MB) http://www.kcna.kp/siteFiles/thumb/focus.jpg
 * (957kB; 貌似每个IP有256MB的流量限制) http://www.mfa.gov.kp/app/uploads/2023/01/21-1.jpg
