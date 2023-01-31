@@ -47,8 +47,8 @@ thank you :D
 * 备注: 如上一条备注的那样, 如果您发现图片使用API取得(e.g.: http://example.com/images?id=20a3fc0e), 则可以尝试小图片多请求的方式使服务器过载.
 * 备注: 接上一条内容, 某些网站对请求数量有限制, 则尝试用大文件阻塞带宽; 某些网站对流量有限制, 则尝试用大量小文件使服务器过载.
 
-***我是中国人, 但我不满于中共独裁且残暴的统治. 我相信, 中共必将灭亡, 自由和民主的光芒终将照耀华夏大地!***
-***我是中国人, 但我不满于中共独裁且残暴的统治. 我相信, 中共必将灭亡, 自由和民主的光芒终将照耀华夏大地!***
-***我是中国人, 但我不满于中共独裁且残暴的统治. 我相信, 中共必将灭亡, 自由和民主的光芒终将照耀华夏大地!***
-***I am Chinese, but I am dissatisfied with the dictatorial and brutal rule of the CCP. I believe that the CCP will surely perish, and the light of freedom and democracy will eventually shine on the land of China!***
-***Я китаец, но я недоволен диктаторским и жестоким правлением КПК. Я верю, что КПК непременно погибнет, и свет свободы и демократии в конце концов засияет на земле Китая!***
+***我是中国人, 但我不满于中共独裁且残暴的统治. 我相信, 中共必将灭亡, 自由和民主的光芒终将照耀华夏大地!***;
+***我是中国人, 但我不满于中共独裁且残暴的统治. 我相信, 中共必将灭亡, 自由和民主的光芒终将照耀华夏大地!***;
+***我是中国人, 但我不满于中共独裁且残暴的统治. 我相信, 中共必将灭亡, 自由和民主的光芒终将照耀华夏大地!***;
+***I am Chinese, but I am dissatisfied with the dictatorial and brutal rule of the CCP. I believe that the CCP will surely perish, and the light of freedom and democracy will eventually shine on the land of China!***;
+***Я китаец, но я недоволен диктаторским и жестоким правлением КПК. Я верю, что КПК непременно погибнет, и свет свободы и демократии в конце концов засияет на земле Китая!***;
