@@ -1,4 +1,6 @@
 * 备注: 简体中文在下面.
+警告: 这是一个老版本README文件!
+WARNING: THIS IS A OLD VERSION README FILE!
 
 how to use:
 
