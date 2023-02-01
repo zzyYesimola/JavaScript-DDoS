@@ -102,6 +102,7 @@
 						xhr.addEventListener('load',null)
 						xhr.open('GET',url)
 						xhr.send()
+						if (i > 256) {break}
 					}
 				} else {
 					objNum = Number(objNum)
